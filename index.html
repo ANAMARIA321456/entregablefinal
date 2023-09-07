@@ -4,14 +4,15 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="./css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap" rel="stylesheet">
         <title>finalfront1</title>
     </head>
     <body>
-        <header>
-            <div>
+        <header class="contenedor_header">
+            <div class="logo">
                 <img src="./img/logo.svg" alt>
             </div>
-            <nav>
+            <nav class="navegador">
                 <ul>
                     <li> <a href="./pages/exports.html"></a>Sports</li>
                     <li> <a href="./pages/product.html"></a>Products</li>
@@ -20,15 +21,15 @@
                     <li> <a href="./pages/community.html"></a>Community</li>
                 </ul>
             </nav>
-            <div><button>Contact</button></div>
+            <button class="boton">Contact</button>
         </header>
-        <section>
-            <div><img src="./img/padel-intro.png" alt></div>
-            <div>
+        <section class="contenedor_body">
+            <div class="columna1"><img src="./img/padel-intro.png" alt></div>
+            <div class="columna2">
                 <h1>LIVE: Follow the Telcel Huawei Mexico Open 2022 for free</h1>
                 <p>The final Open of the 2022 World Padel Tour season is
                     underway, don't miss out on any of the action!</p>
-                <button><a href="./pages/contact.html"></a>Contact</button>
+                <button class="boton"><a href="./pages/contact.html"></a>Contact</button>
             </div>
         </section>
         <header>
@@ -134,9 +135,12 @@
             <li><a href="./pages/privacy.html"></a>Privacy Policy</li>
         </ul>
         <form action="#" method="post">
-            <input type="text" name="go">
+            <input type="text" name="go" placeholder="Update in your inbox...">
             <button>Go</button>
         </form>
+        <div>
+            <p>Copyright 2020. All Rights Reserved</p>
+        </div>
         </footer>
 
     </body>
