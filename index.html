@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="./css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link
-            href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap"
             rel="stylesheet">
         <title>finalfront1</title>
     </head>
@@ -14,16 +14,22 @@
             <div class="logo">
                 <img src="./img/logo.svg" alt>
             </div>
+
+            <!-- Estos dos deben ocultarse -->
             <nav class="navegador">
                 <ul>
-                    <li> <a href="./pages/exports.html"></a>Sports</li>
-                    <li> <a href="./pages/product.html"></a>Products</li>
-                    <li> <a href="./pages/aboutUs.html"></a>About Us</li>
-                    <li> <a href="./pages/trainning.html"></a>Trainning</li>
-                    <li> <a href="./pages/community.html"></a>Community</li>
+                    <li><a href="./pages/exports.html"></a>Sports</li>
+                    <li><a href="./pages/product.html"></a>Products</li>
+                    <li><a href="./pages/aboutUs.html"></a>About Us</li>
+                    <li><a href="./pages/trainning.html"></a>Trainning</li>
+                    <li><a href="./pages/community.html"></a>Community</li>
                 </ul>
             </nav>
+
             <button class="boton">Contact</button>
+
+            <img src="./img/icon-hamburger.svg" alt="" class="hamburger">
+
         </header>
         <section class="contenedor_body">
             <div class="columna1"><img src="./img/padel-intro.png" alt></div>
@@ -34,14 +40,14 @@
                 <button class="boton"><a href="./pages/contact.html"></a>Contact</button>
             </div>
         </section>
-        <header class="header2">
+        <section class="section">
             <div><h2>What´s different between pros?</h2></div>
             <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Maecenas aliquet consequat purus sit amet sodales. In
                     faucibus ut nisi eu dignissim. Vestibulum fringilla velit
                     sed tincidunt tincidunt.</p></div>
 
-        </header>
+        </section>
         <section>
             <article class="contenedorbody2">
                 <div class="tarjeta">
@@ -122,49 +128,44 @@
                 <div>
                     <button class="boton" >More</button>
                 </div></article>
-            <footer class="footer1">
+            <section class="section">
                 <div>
                     <h2>Get to know the best teams of the year</h2>
                 </div>
                 <div>
-                    <button class="boton"><a href="./pages/goforit.html"></a>Go
-                        for it</button>
+                    <button class="button-section"><a href="./pages/goforit.html"></a>Go for it</button>
                 </div>
-            </footer>
+            </section>
         </section>
         <footer class="footer2">
-            <div>
-                <i class="icono1">
+            <div class="footer-container">
+                <div class="footer-social">
                     <img src="./img/logo-white.svg" alt="svg">
-                </i>
+                    <div class="footer-icon">
+                        <img src="./img/icon-facebook.svg" alt>
+                        <img src="./img/icon-youtube.svg" alt>
+                        <img src="./img/icon-twitter.svg" alt>
+                        <img src="./img/icon-pinterest.svg" alt>
+                        <img src="./img/icon-instagram.svg" alt>
+                    </div>
+                </div>
+                <ul class="lista">
+                    <li><a href="./pages/home.html"></a>Home</li>
+                    <li><a href="./pages/pricing.html"></a>Pricing</li>
+                    <li><a href="./pages/product.html"></a>Products</li>
+                    <li><a href="./pages/aboutUs.html"></a>About Us</li>
+                    <li><a href="./pages/trainning"></a>Trainning</li>
+                    <li><a href="./pages/community.html"></a>Community</li>
+                    <li><a href="./pages/privacy.html"></a>Privacy Policy</li>
+                </ul>
+                <form action="#" method="get" class="buscador">
+                    <input type="text" name="go"
+                        placeholder="Update in your inbox...">
+                    <button class="footer-button">Go</button>
+                </form>
             </div>
 
-            <div>
-                <i class="icono">
-                    <img src="./img/icon-facebook.svg" alt>
-                    <img src="./img/icon-youtube.svg" alt>
-                    <img src="./img/icon-twitter.svg" alt>
-                    <img src="./img/icon-pinterest.svg" alt>
-                    <img src="./img/icon-instagram.svg" alt>
-                </i>
-            </div>
-            <ul class="lista">
-                <li><a href="./pages/home.html"></a>Home</li>
-                <li><a href="./pages/pricing.html"></a>Pricing</li>
-                <li><a href="./pages/product.html"></a>Products</li>
-                <li><a href="./pages/aboutUs.html"></a>About Us</li>
-                <li><a href="./pages/trainning"></a>Trainning</li>
-                <li><a href="./pages/community.html"></a>Community</li>
-                <li><a href="./pages/privacy.html"></a>Privacy Policy</li>
-            </ul>
-            <form action="#" method="post" class="buscador">
-                <input type="text" name="go"
-                    placeholder="Update in your inbox...">
-                <button class="boton">Go</button>
-            </form>
-            <div class="copy">
-                <p>Copyright 2020. All Rights Reserved</p>
-            </div>
+            <p class="copy">Copyright 2020. All Rights Reserved</p>
         </footer>
 
     </body>
