@@ -34,6 +34,9 @@ display: flex;
     padding: 0.4rem 2rem ;
     border: 0px ;
 }
+.contenedor_header .boton{
+    padding: 0rem 3rem ;
+}
 .contenedor_body {
     display: flex;
     flex-wrap: wrap;
@@ -58,7 +61,7 @@ display: flex;
     justify-content: space-around;
     padding-left: 3rem;
     }
-.contenedor_body .columna2 h1.titulo{
+.contenedor_body .columna2 h1{
     display: block;
     font-size: 26px;
     font-weight: 900;
@@ -77,14 +80,80 @@ display: flex;
 }
 .contenedorbody2{
     display: flex;
+    flex-wrap: wrap;
     border: 1px black solid;
-    padding: 5vw 10vw;
+    padding: 2vw;
+    background-color: #FAFAFA;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contenedorbody2 .boton{
+    padding: 0.5rem 1.1rem ;
+    font-weight: 900;
+}
+.tarjeta{
+    
+    display: flex;
+    width:553px;
+    padding: 1rem 0rem ;
+    
+}
+.tarjeta h3{
+    font-weight: 900;
+    padding: 5px 0px 15px;
+}
+.tarjeta div{
+    padding: 1rem;
+}
+.body2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 100px;
 }
 .columna3{
     display: flex;
+    flex-wrap: wrap;
     border: 1px black solid;
-    padding: 5vw 10vw;
     border: 1px black solid;
+    justify-content: center;
+    padding: 30px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 16px;
+    padding: 15px;
+}
+.tarjetapersona{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    
+}
+
+
+.foto{
+    position: relative;
+    margin-bottom: -40px;
+    z-index: 1;
+}
+.tarjetapersona .descripcion{
+    background-color: #FAFAFA;
+    text-align: center;
+    padding: 60px 0px 0px;
+    position: relative;
+    width: 403px;
+}
+.tarjetapersona .descripcion h3{
+    padding-bottom: 20px;
+}
+.tarjetapersona .descripcion button{
+    display: block;
 }
 .footer1{
     display: flex;
@@ -110,8 +179,39 @@ display: flex;
     justify-content: space-evenly;
     padding: 2rem;
     color: white;
+
 }
 
 .footer2 ul { 
     list-style-type: none;
  }
+
+ .lista {
+    column-count: 2; 
+    column-gap: 10rem;
+    padding: 0; 
+    list-style: none; 
+    line-height: 2rem;
+    
+ }
+.buscador {
+
+    top: 10px; 
+    right: 20px; 
+    
+    gap: 10px; 
+}
+ 
+.copy {
+position: relative
+;
+
+
+
+}
+
+.footer2 .boton{
+    padding: 0.4rem 1rem ;
+    bottom: 0;
+    
+}
