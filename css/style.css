@@ -23,6 +23,7 @@
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    color: #242E52;
 }
 .contenedor_header li {
     padding: 15px;
@@ -84,13 +85,20 @@
 
 .section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 30px;
     background-color: #8b48bf;
     color: white;
-}
 
+}
+.colum2{
+    width: 450px;
+}
+.colum1{
+    width: 450px;
+    font-size: 28px;
+}
 .section div{
     max-width: 40%;
 }
@@ -122,9 +130,14 @@
 .tarjeta h3{
     font-weight: 900;
     padding: 5px 0px 15px;
+    color:#323851;
+    ;
 }
 .tarjeta div{
     padding: 10px;
+}
+.tarjeta p{
+    color: #B3B2B7;
 }
 .body2{
     display:flex;
@@ -167,9 +180,11 @@
     padding: 60px 0px 0px;
     position: relative;
     width: 403px;
+    color: #B3B2B7;
 }
 .tarjetapersona .descripcion h3{
     padding-bottom: 20px;
+    color: #3F4868;
 }
 .tarjetapersona .descripcion button{
     display: block;
@@ -210,8 +225,25 @@
 .buscador {
     display: flex;
     align-items: flex-start;
+    
 }
+.buscador input{
+    color: #8C8C94;
+    font-weight: 100;
+}
+.section2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: #8b48bf;
+    color: white;
+    font-size: 25px; }
 
+    .section2 div{
+        max-width: 40%;
+
+    }
 .button-section {
     box-shadow: 0px 4px 8px 0px #00000040;
     background-color: #FFFFFF;
@@ -250,6 +282,7 @@ input {
 
 .copy {
     text-align: right;
+    color: #8C8C94;
 }
 
 .footer-icon {
@@ -269,7 +302,9 @@ input {
     nav ~ .boton {
         display: none;
     }
-
+    .columna1{
+        padding-bottom: 15vh;
+    }
     .columna2 {
         width: auto;
     }
@@ -292,20 +327,41 @@ input {
         background: #3CDDF3;
         flex-direction: column;
         gap: 50px;
+        align-items: flex-start;
+        font-size: medium;
     }
 
     .section div {
         max-width: none;
     }
 
-    .section .button-section {
+    .section2 .button-section {
       background: #232C50;
       color: #FAFAFA;
+    }
+    .section2 {
+        background: #3CDDF3;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .section2 div {
+        max-width: none;
+        padding: 0px 60px;
     }
 
     /* Footer */
     .footer-container {
         flex-direction: column-reverse;
+    }
+    .footer-container ul{
+        padding: 0px 40px;
+    }
+    .buscador{
+        padding: 0px 30px;
     }
 
     .footer-social {
@@ -313,7 +369,7 @@ input {
     }
 
     .footer-social > img {
-        max-width: 100px;
+        max-width: 800px;
         margin: 35px 0;
     }
 
@@ -321,8 +377,11 @@ input {
         display: flex;
         justify-content: space-between;
     }
-
+ 
     .lista {
         margin: 25px 0;
+    }
+    .copy {
+        text-align: center;
     }
 }
